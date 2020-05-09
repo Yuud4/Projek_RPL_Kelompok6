@@ -16,7 +16,7 @@
     </div>
 
     <div class="container2">
-        <form>
+        <form action="proseslogin.php" method="POST"> <!-- masih bingung proses login gimana. -->
             <div>
                 <input type="text" name="uname" required="">
                 <label>Username</label>
@@ -28,9 +28,9 @@
 
             <label>
                 <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
+            </label> <!-- masih bingung proses remember me gimana. -->
 
-            <button type="submit"><a href="index.html">Sign in</a></button>
+            <button type="submit" value="sign_in" name="sign_in"><a href="index.html">Sign in</a></button> 
         </form>
     </div>
 
@@ -56,4 +56,5 @@
         }
     </script>
 </body>
+
 </html>
