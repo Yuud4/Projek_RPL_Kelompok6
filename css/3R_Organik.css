@@ -113,6 +113,10 @@ header {
     6px 6px 20px rgba(0, 0, 0, 0.2);
 }
 
+.art-container .card:hover {
+    scale: 1.05;
+}
+
 .art-container .card .gambar {
     position: relative;
     text-align: center;
