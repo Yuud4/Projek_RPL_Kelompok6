@@ -46,6 +46,7 @@ User Story
 
 Use Case Diagram
 ---
+<img src= "https://github.com/Yuud4/Projek_RPL_Kelompok6/tree/master/diagram/usecase.png" alt= "usecase">
 
 Use Case Description
 ---
@@ -65,12 +66,18 @@ User membuka website untuk memilih jenis sampah yang akan user cari tahu tentang
 
 Activity Diagram
 ---
+1. Login
+<img src= "https://github.com/Yuud4/Projek_RPL_Kelompok6/tree/master/diagram/Activity1.png" alt= "login">
+
+2. Aktivitas utama
+<img src= "https://github.com/Yuud4/Projek_RPL_Kelompok6/tree/master/diagram/activity2.png" alt= "aktivitas utama">
 
 Gantt Chart
 ---
 
 Entity Relationship Diagram
 ---
+<img src= "https://github.com/Yuud4/Projek_RPL_Kelompok6/tree/master/diagram/ERD.png" alt= "ERD">
 
 Hasil Implementasi Perangkat Lunak
 ---
