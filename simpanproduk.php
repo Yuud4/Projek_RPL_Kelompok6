@@ -7,21 +7,30 @@ $database="REGROW"; ///nama database yang dipilih
 
 $con=mysqli_connect($server, $user, $Password) or die ("Koneksi Gagal"); ///koneksi ke database
 mysqli_select_db($con,$database) or die ("Database tidak tersedia"); ///memilih database, dan menampilkan pesan jika gagal
+
+if(isset($_POST['foto_produk'])) {
+	
 ///mengambil data dari form
-$file = $_FILES['attachments[]'];
 $nama = $_POST['name'];
 $deskripsi = $_POST['Description'];
 $harga = $_POST['price'];
+$namafotoproduk = time() . '_' . $_FILES['fotoproduk']['name'];
 
-///input ke tabel pengguna
-$input=mysqli_query($con, "INSERT INTO produk (Kode_Produk, Nama_Produk, Deskripsi_Produk, Foto_Produk, Harga_Produk) VALUES (' ', '$nama', '$deskripsi', '$file', '$harga')");
-///cek sudah terinput atau belum
-if(!$input) ///jika gagal
-{
-header('Location: sell.html?input_gagal');
+$target = 'namafolder/' . $namafotoproduk;
+
+if(move_uploaded_file($_FILES['fotoproduk']['tmp_name'], $target)){
+	$sql = "INSERT INTO produk (Kode_Produk, Nama_Produk, Deskripsi_Produk, Foto_Produk, Harga_Produk) VALUES (' ', '$nama', '$deskripsi', '$namafotoproduk', '$harga')";
+	if (mysqli_query($con, $sql)) {
+            print "Produk berhasil di unggah...! Silahkan cek di Homescreen";
+         
+        }
+        else {
+            print "Database Error: Gagal mengunggah produk...!";
+        
+        }
 }
-else ///jika sukses
-{
-	header('Location: index.html?input_berhasil');
+else{
+print "Error while registration...!";
+	}
 }
 ?>
