@@ -23,8 +23,7 @@ include "simpanproduk.php"
                      <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/exit.svg" alt="exit"></a></li>
                      <li><a href="index.html">home</a></li>
                      <li><a href="shop.html">shop</a></li>
-                     <li><a href="register.html">register</a></li>
-                     <li><a href="login.html">login</a></li>
+                     
                  </ul>
          </nav>
         </header>
