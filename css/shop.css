@@ -208,13 +208,15 @@ header {
 }
 
 .glider2 .card .gambar img, .glider3 .card .gambar img {
-    width: 120px;
+    border-radius: .8em;
+    width: 180px;
     height: 120px;
     color: #1BD688;
 }
 
 .container5 .card .gambar img {
-    width: 120px;
+    border-radius: .8em;
+    width: 160px;
     height: 120px;
     color: #1BD688;
 }
@@ -248,7 +250,7 @@ header {
 
 .glider-next{
     position: absolute;
-    right: 100px;
+    right: 110px;
     top: 45%
 }
 

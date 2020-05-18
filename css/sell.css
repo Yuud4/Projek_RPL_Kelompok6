@@ -85,6 +85,7 @@ header {
     color: white;
     padding-left: 1.4em;
     padding-right: 1.4em;
+    margin: 0 20em;
 }
 
 .container2 h1 {
@@ -152,5 +153,52 @@ textarea {
     display: inline-block;
     border: 2px solid #ccc;
     box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1200px){
+
+    .sidenav {
+        width: auto;
+        height: auto;
+        position: relative;
+        background: none; 
+        overflow: inherit; 
+        padding: .2em .8em 0;
+        transition: none; 
+    }
+
+    .sidenav li {
+        float: left;
+        margin: .3em 1em;
+    }
+
+    .sidenav a{
+        color: white;
+        background-color: inherit;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .sidenav .closebtn {
+        display: none;
+    }
+
+    .ham {
+        display: none;
+    }
+
+    button {
+        text-decoration: none;
+        color: white;
+        background-color: #1BD688;
+        font-weight: bolder;
+        font-size: 1.2rem;
+        margin: 2em auto;
+        border-radius: .8em;
+        padding: .4em 1.2em;
+        border: none;
+        cursor: pointer;
+        width: 80%;
+    }
 }
 
