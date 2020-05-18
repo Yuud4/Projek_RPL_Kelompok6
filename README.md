@@ -43,6 +43,13 @@ Regrow adalah aplikasi web yang dibuat sebagai media informasi mengenai pengerti
 
 Analisis User
 ---
+1. Deskripsi produk : Web yang kami buat menjelaskan tentang gerakan 3R dan cara mengaplikasikannya serta media menjual sampah daur ulang
+
+2. Stakeholder : Masyarakat umum
+
+3. Design Implications : Masyarakat yang ingin mengetahui mengenai gerakan 3R dan yang ingin menjual produk kerajinan barang daur ulang
+
+4. Actions needed : Mengetahui informasi mengenai pengolahan sampah dengan 3R beserta video dan melakukan jual beli barang daur ulang
 
 User Story
 ---
@@ -91,8 +98,7 @@ Activity Diagram
 Gantt Chart
 ---
 
-![ganttChart](https://user-images.githubusercontent.com/60083961/82156272-5ec13400-98a4-11ea-9ad7-b8bd26288942.png)
-
+![Gantt](https://user-images.githubusercontent.com/60083961/82183408-1d666e00-9910-11ea-91a6-46c70e86a011.png)
 
 
 
@@ -106,3 +112,5 @@ Entity Relationship Diagram
 
 Hasil Implementasi Perangkat Lunak
 ---
+Kami melampirkan demo aplikasi REGROW sebagai hasil implementasi dari perangkat lunak yang kami buat
+https://youtu.be/PW2ceMUwjYo
